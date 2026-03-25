@@ -14,7 +14,7 @@ This project focuses on simplicity, usability, and structured data management us
 - Provide a simple and user-friendly interface  
 - Demonstrate OOP concepts in a real-world application  
 
----
+
 
 ## ✨ Features
 
@@ -60,4 +60,22 @@ This project focuses on simplicity, usability, and structured data management us
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure## 
+
+
+ExpenseTracker2
+└── src
+├── model
+│ ├── User.java
+│ └── Expense.java
+│
+├── service
+│ ├── FileManager.java
+│ └── ExpenseManager.java
+│
+├── ui
+│ ├── LoginFrame.java
+│ ├── SignupFrame.java
+│ └── ExpenseFrame.java
+│
+└── MainApp.java
